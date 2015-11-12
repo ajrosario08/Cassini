@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9271059A1BF4558B0067887A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927105991BF4558B0067887A /* ImageViewController.swift */; };
+		9271059C1BF45A810067887A /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271059B1BF45A810067887A /* DemoURL.swift */; };
 		92B911C61BF1BC0600A7559A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B911C51BF1BC0600A7559A /* AppDelegate.swift */; };
 		92B911C81BF1BC0600A7559A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B911C71BF1BC0600A7559A /* ViewController.swift */; };
 		92B911CB1BF1BC0600A7559A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B911C91BF1BC0600A7559A /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		927105991BF4558B0067887A /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9271059B1BF45A810067887A /* DemoURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
 		92B911C21BF1BC0600A7559A /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B911C51BF1BC0600A7559A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92B911C71BF1BC0600A7559A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				92B911C51BF1BC0600A7559A /* AppDelegate.swift */,
 				92B911C71BF1BC0600A7559A /* ViewController.swift */,
 				92B911C91BF1BC0600A7559A /* Main.storyboard */,
+				9271059B1BF45A810067887A /* DemoURL.swift */,
 				927105991BF4558B0067887A /* ImageViewController.swift */,
 				92B911CC1BF1BC0600A7559A /* Assets.xcassets */,
 				92B911CE1BF1BC0600A7559A /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9271059C1BF45A810067887A /* DemoURL.swift in Sources */,
 				92B911C81BF1BC0600A7559A /* ViewController.swift in Sources */,
 				9271059A1BF4558B0067887A /* ImageViewController.swift in Sources */,
 				92B911C61BF1BC0600A7559A /* AppDelegate.swift in Sources */,
