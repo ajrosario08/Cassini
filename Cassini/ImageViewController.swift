@@ -13,7 +13,9 @@ class ImageViewController: UIViewController {
     var imageURL: NSURL? {
         didSet {
             image = nil
-            fetchImage()
+            if view.window != nil {
+                fetchImage()
+            }
         }
     }
     
@@ -26,7 +28,6 @@ class ImageViewController: UIViewController {
                 image = nil
             }
         }
-    
     }
 
     private var imageView = UIImageView()
@@ -36,7 +37,6 @@ class ImageViewController: UIViewController {
         set {
             imageView.image = newValue
             imageView.sizeToFit()
-            
         }
     }
     
@@ -45,6 +45,11 @@ class ImageViewController: UIViewController {
         view.addSubview(imageView)
     }
     
-    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        if image == nil {
+            fetchImage()
+        }
+    }
     
 }
