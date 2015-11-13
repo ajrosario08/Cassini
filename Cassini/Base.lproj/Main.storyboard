@@ -78,18 +78,25 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <animations/>
                             </scrollView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="DNW-bL-Yzb">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                                <animations/>
+                            </activityIndicatorView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ZzS-GK-QkY" secondAttribute="trailing" id="Ls8-fG-BKz"/>
+                            <constraint firstItem="DNW-bL-Yzb" firstAttribute="centerX" secondItem="qCs-je-16t" secondAttribute="centerX" id="QN6-Yq-fXb"/>
                             <constraint firstItem="ZzS-GK-QkY" firstAttribute="top" secondItem="qCs-je-16t" secondAttribute="top" id="YKv-bj-qQa"/>
                             <constraint firstItem="ZzS-GK-QkY" firstAttribute="bottom" secondItem="wni-VM-LBT" secondAttribute="top" id="hse-lw-n8k"/>
+                            <constraint firstItem="DNW-bL-Yzb" firstAttribute="centerY" secondItem="qCs-je-16t" secondAttribute="centerY" id="qpO-3D-JGi"/>
                             <constraint firstItem="ZzS-GK-QkY" firstAttribute="leading" secondItem="qCs-je-16t" secondAttribute="leading" id="zGL-li-IYU"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="scrollView" destination="ZzS-GK-QkY" id="tyT-OD-czC"/>
+                        <outlet property="spinner" destination="DNW-bL-Yzb" id="16H-7o-lnE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3r-Dm-nwg" userLabel="First Responder" sceneMemberID="firstResponder"/>
